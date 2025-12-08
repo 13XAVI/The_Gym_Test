@@ -26,9 +26,4 @@ public class PopupModal {
         }
     }
 
-    public  boolean isModalVisible(){
-        List<WebElement> modal   = driver.findElements(modalPopup);
-        return !modal.isEmpty() && modal.get(0).isDisplayed();
-    }
-
 }

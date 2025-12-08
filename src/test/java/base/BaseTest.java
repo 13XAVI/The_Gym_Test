@@ -31,8 +31,6 @@ public class BaseTest {
         driver.get("https://candymapper.com/");
     }
 
-
-
     @AfterClass
     public void tearDown()
     {
